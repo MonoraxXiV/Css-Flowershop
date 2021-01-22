@@ -1,0 +1,41 @@
+.body{
+    background-color: #86b637;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("src/succulents.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+   color:white;
+}
+h1{
+    background-color: #86b637;
+    padding:5px;
+}
